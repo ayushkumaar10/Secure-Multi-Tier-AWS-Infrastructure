@@ -6,6 +6,8 @@ A portfolio lab demonstrating a multi-tier AWS architecture, secure network segm
 
 ## Architecture
 
+![AWS Architecture Diagram](aws_architecture_diagram.png)
+
 - VPC with public, private application, and private database subnets across two Availability Zones.
 - Internet-facing Application Load Balancer in public subnets.
 - Auto Scaling application instances in private subnets.
